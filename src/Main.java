@@ -7,7 +7,9 @@ public class Main {
     }
     public static void check(){
         LocalDateTime now = LocalDateTime.now();
-        System.out.println(now);
+        String time = now.toString();
+        String result = time.substring(11, 19);
+        System.out.println(result);
 
     }
 }
